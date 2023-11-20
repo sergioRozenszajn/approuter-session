@@ -123,6 +123,7 @@ Cookie.prototype = {
       , domain: this.domain
       , path: this.path
       , sameSite: this.sameSite
+      , partitioned: this.partitioned
     }
   },
 
